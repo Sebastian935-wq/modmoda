@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nearbyalert",
+  "version": "${version}",
+  "name": "Nearby Alert",
+  "description": "Powiadamia na czacie (z dźwiękiem), gdy gracz jest w pobliżu. Menu pod klawiszem K.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.nearbyalert.NearbyAlertClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
